@@ -1,3 +1,4 @@
-A JQuery wrapper of JavaScript Shell 1.4
+A JQuery wrapper of JavaScript Shell 1.4. Check the online demo at:
+<a href="http://mingfai.github.com/jquery.shell/">http://mingfai.github.com/jquery.shell/</a>
 
 Hopefully, the whole JavaScript Shell codebase could be ported to JQuery
