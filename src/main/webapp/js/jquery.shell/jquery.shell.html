@@ -1,0 +1,40 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="jquery.shell.css"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+    <script src="javascript.shell.js" type="text/javascript"></script>
+    <script src="jquery.shell.js" type="text/javascript"></script>
+    <script type="text/javascript" src="chrome://extensiondev/content/rdfhistory.js"></script>
+    <script type="text/javascript" src="chrome://extensiondev/content/chromeShellExtras.js"></script>
+</head>
+
+<body>
+
+<script type="text/javascript">
+    $(document).ready(function(){ $('#shell').shell() })
+
+</script>
+
+<div id="hints"><h3>JavaScript Shell 1.4 with Riak.js and JQuery</h3>
+
+    <div>Features: autocompletion of property names with Tab, multiline input with Shift+Enter, input history with
+        (Ctrl+) Up/Down, <a accesskey="M" href="javascript:go('scope(Math); mathHelp();');"
+                            title="Accesskey: M">Math</a>, <a accesskey="H"
+                                                              href="http://www.squarefree.com/shell/?ignoreReferrerFrom=shell1.4"
+                                                              title="Accesskey: H">help</a></div>
+    <div>Values and functions: ans, print(string), <a accesskey="P" href="javascript:go('props(ans)')"
+                                                      title="Accesskey: P">props(object)</a>, <a accesskey="B"
+                                                                                                 href="javascript:go('blink(ans)')"
+                                                                                                 title="Accesskey: B">blink(node)</a>,
+        <a accesskey="C" href="javascript:go('clear()')" title="Accesskey: C">clear()</a>, load(scriptURL),
+        scope(object)
+    </div>
+</div>
+
+<div id="shell"></div>
+
+</body>
+</html>

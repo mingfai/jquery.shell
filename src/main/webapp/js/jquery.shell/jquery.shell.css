@@ -1,0 +1,69 @@
+body {
+    background: white;
+    color: black;
+}
+
+#output {
+    white-space: pre;
+    white-space: -moz-pre-wrap;
+}
+
+/* Preserve line breaks, but wrap too if browser supports it */
+h3 {
+    margin-top: 0;
+    margin-bottom: 0em;
+}
+
+h3 + div {
+    margin: 0;
+}
+
+form {
+    margin: 0;
+    padding: 0;
+}
+
+#input {
+    width: 100%;
+    border: none;
+    padding: 0;
+    overflow: auto;
+}
+
+.input {
+    color: blue;
+    background: white;
+    font: inherit;
+    font-weight: bold;
+    margin-top: .5em; /* background: #E6E6FF; */
+}
+
+.normalOutput {
+    color: black;
+    background: white;
+}
+
+.print {
+    color: brown;
+    background: white;
+}
+
+.error {
+    color: red;
+    background: white;
+}
+
+.propList {
+    color: green;
+    background: white;
+}
+
+.message {
+    color: green;
+    background: white;
+}
+
+.tabcomplete {
+    color: purple;
+    background: white;
+}
